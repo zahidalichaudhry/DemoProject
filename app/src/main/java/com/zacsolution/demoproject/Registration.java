@@ -22,7 +22,7 @@ TextView title;
         setContentView(R.layout.activity_registration);
         scrollView=(ScrollView)findViewById(R.id.scrollView);
         title=(TextView)findViewById(R.id.title);
-        title.setText("Daftars");
+        title.setText("Daftar");
         next=(Button)findViewById(R.id.next);
         next.setEnabled(false);
         next.setBackgroundColor(ContextCompat.getColor(this, R.color.greyshade));
